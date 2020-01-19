@@ -1,0 +1,363 @@
+*{
+    margin: 0;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+html,body{
+    width : 100%;
+    height: 100%;
+    background-color: black;
+
+}
+#cybertruck{
+    width: 100%;
+    height: 100%;
+    background-color: aqua;
+    background-image: url('https://cdn.mos.cms.futurecdn.net/SDbVL7ihJ4zGUKdV9rg5XZ-970-80.jpeg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+#navbar{
+    display: flex;
+    height: 80px;
+    width: 100%;
+    
+    align-items: center;
+    justify-content: space-between;
+}
+
+#teslalogo{
+    width : 105px;
+    height : 14px;
+    background-image: url('http://nationwidecleaning-fm.co.uk/wp-content/uploads/2015/02/tesla.png');
+    background-size: contain;
+    margin-left: 25px;
+}
+#models{
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.829);
+}
+#models a{
+    padding-right: 25px;
+    
+}
+#signin{
+    display: flex;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 14px;
+    color: rgba(0, 0, 0, 0.829);
+    align-items: center;
+
+}
+
+#more{
+    background-size: contain;
+    margin-right: 25px;
+    height: 18px;
+    width: 25px;
+   background-size: cover;
+    background-image: url('https://www.freeiconspng.com/uploads/menu-icon-8.png');
+}
+#signin a{
+    padding-right: 25px;
+}
+
+#discrip p{
+    color: rgba(255, 255, 255, 0.89);
+    font-family: 'Montserrat';
+    font-weight: 600;
+    font-size: 15px;
+    word-spacing: 4px;
+   
+
+
+}
+#discrip{
+    position: absolute;
+    top : 530px;
+    left: 50%;
+    transform:translate(-50%,-50%) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+}
+
+
+#discrip button{
+    border: 4px solid snow;
+    background-color: snow;
+    padding: 8px 40px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color: black;
+    margin-top: 50px;
+
+   
+    background-color:snow;
+
+    box-shadow: 0px 0px 30px 5px rgba(252, 253, 253, 0.623);
+    /* in order: x offset, y offset, blur size, spread size, color */
+    /* blur size and spread size are optional (they default to 0) */
+
+}
+
+#part2{
+    width: 100%;
+    min-height: 100%;
+    background-color: black;
+    padding-top: 30px;
+}
+
+#sidepose{
+    width: 1240px;
+    height: 620px;
+    background-color: brown;
+    margin: 0 auto;
+   background-image: url('https://www.tesla.com/xNVh4yUEc3B9/02_Desktop.jpg');
+   
+
+}
+#exoscalaton h3{
+    background-color: black;
+    font-size: 22px;
+    letter-spacing: 3px;
+    margin-top: 25px;
+    margin-bottom: 30px;
+   
+}
+
+#exoscalaton{
+    margin-left: 253px;
+    color: snow;
+    font-family: 'Montserrat';
+    padding-bottom: 100px;
+   
+  
+}
+#exoscalaton p{
+    line-height: 25px;
+    font-size: 14px;
+}
+#steel{
+    background-image: url('https://www.tesla.com/xNVh4yUEc3B9/03_Desktop.jpg');
+    width: 1240px;
+    height: 620px;
+    background-color: brown;
+    margin: 0 auto;
+   
+}
+
+#myVideo {
+   
+
+    width: 1240px;
+   height: 625px;
+   margin-left: 55px;
+  }
+  
+  #coldsteel{
+      display: flex;
+      width: 1240px;
+      margin: 0 auto;
+    color: snow;
+      font-family: 'Montserrat';
+      font-size: 14px;
+      line-height: 21px;
+      margin-top: 20px;
+      margin-bottom: 85px;
+  }
+  #coldsteel h4{
+      letter-spacing: 1.75px;
+     padding-right: 60px;
+      font-weight: 700;
+      
+  }
+  #coldsteel p{
+      letter-spacing: 1.75px;
+  }
+
+  @keyframes fadeInAnimation { 
+    0% { 
+        opacity: 0; 
+    } 
+    100% { 
+        opacity: 1; 
+     } 
+} 
+  #cyberimg11{
+      background-size: cover;
+      width: 1240px;
+      height: 625px;
+      margin: 0 auto;
+      background-image: url('https://www.tesla.com/xNVh4yUEc3B9/04_Desktop.jpg');
+  }
+
+  #list{
+      width : 50%;
+      height: 843px;
+     
+  }
+  #topview{
+      width: 50%;
+      height: 843px;
+      background-image: url('https://www.tesla.com/xNVh4yUEc3B9/12_Desktop.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: center;
+  }
+  #details111{
+      width :100%;
+      min-height: 200px;
+      background-color: black;
+      display: flex;
+      margin-bottom: 40px;
+      padding-bottom: 170px;
+  }
+  #part111{
+      width: 50%;
+      height: 843px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-top: 50px;
+  }
+  #part222{
+      width : 50%;
+      height: 843px;
+      
+      background-image: url('https://www.tesla.com/xNVh4yUEc3B9/12_Desktop.png');
+      background-size:contain;
+      background-position: center;
+  }
+  .container101{
+      width:588px ;
+      min-height: 65px;
+   
+      border-bottom: 1px solid gray;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+     
+  }
+
+ #part111 .container101 p{
+    font-family: 'Montserrat';
+    font-size:14px ;
+    font-weight: 600;
+    color: snow;
+    letter-spacing: 2px;
+  }
+
+  .container101 h3{
+      font-size:24px ;
+      letter-spacing:3px ;
+      font-family: 'Montserrat';
+      color: snow;
+  }
+
+  #heading101{
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+     
+  }
+
+  #labels{
+    padding-bottom: 15px;
+    padding-top: 15px;
+  }
+
+  #heading101 label{
+      color: snow;
+      font-family: 'Montserrat';
+      padding-right: 60px;
+      font-size: 14px;
+      font-weight: 500;
+      margin-top: 100px;
+  }
+  #heading101 input{
+      margin-right: 15px;
+  }
+
+  #part111 span{
+      text-align: left;
+      color: snow;
+      font-family: 'Montserrat';
+      margin-left: 85px;
+      font-size: 14px;
+      margin-top: 30px;
+  }
+
+  #ordernow11{
+      width: 100%;
+      height: 100%;
+   
+      display: flex;
+      align-items: center;
+      justify-content: space-around;
+  }
+
+  #image111{
+      width: 80%;
+      height: 60%;
+   
+      background-image: url('https://www.tesla.com/xNVh4yUEc3B9/13_Desktop_Order.png');
+      background-size: contain;
+      background-repeat: no-repeat;
+      background-position: left;
+      margin-right: 30px;
+  }
+  #info111{
+    width: 45%;
+    height: 80%;
+    color: snow;
+    font-family: 'Montserrat';
+    font-size: 30px;
+    font-weight: 500;
+    letter-spacing: 2px;
+   margin-left: 225px;
+   margin-top: 375px;
+
+  }
+  #info111 button{
+    border: 4px solid snow;
+    background-color: transparent;
+    padding: 8px 50px;
+    font-size: 12px;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    word-spacing: 1px;
+    letter-spacing: 2px;
+    color:snow;
+   margin-top: 25px;
+
+   
+    
+  }
+
+  footer{
+      display: flex;
+      position: absolute;
+      position: relative;
+      padding-left: 380px;
+      
+      bottom: 20px;
+  }
+  footer a{
+      color: snow;
+      font-family: 'Montserrat';
+      font-size: 12px;
+      font-weight:400 ;
+      padding-left: 20px;
+  }
