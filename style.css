@@ -1,0 +1,263 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'open sans';
+}
+
+html,body{
+    width : 100% ;
+    height: 100% ;
+ 
+}
+
+nav{
+    width: 100%;
+    height: 145px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+   
+}
+nav img{
+    padding-left: 35px ;
+    padding-right: 60px;
+}
+nav #link a{
+    padding-left: 36px;
+    text-decoration: none;
+    font-size:16px;
+    font-weight: 500;
+    color: black;
+    text-transform: uppercase;
+}
+nav #link a:nth-child(1){
+   padding-left: 0px;
+    border-bottom: 4px solid rgb(89, 216, 248) ;
+    padding-bottom: 4px;
+}
+
+#featured{
+    width : 100%;
+    height: ;
+    background-color: black;
+}
+#container{
+    width: 1270px;
+    min-height: 200px;
+    
+    margin: 0 auto;
+    color: white;
+    padding: 25px 0px;
+    padding-bottom: 115px;
+}
+
+#featured #container h2{
+    text-transform: uppercase;
+    font-size: 32px;
+    letter-spacing:0.5px;
+   font-weight: 700;
+}
+#row1{
+width : 100%;
+height:366px ;
+display: flex;
+align-items: flex-end;
+justify-content: space-between;
+space
+}
+#img1{
+background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/06/04133345/CartoonNetwork_Ben10_462x386.jpg');
+}
+#img2{
+    background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200714/CartoonNetwork_OKKO_462x386.jpg');
+}
+#img3{
+    
+}
+
+.box{
+    width: 417px;
+    height: 345px;
+    background-color: rgb(32, 32, 32);
+    position: relative;
+}
+#row2{
+    display: flex;
+    justify-content: space-between;
+    height: 280px;
+    width: 100%;
+    align-items: center;
+}
+
+.box1{
+    width : 310px;
+    height: 260px;
+    background-color: blue;
+    position: relative;
+}
+#img21{
+    background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200734/CartoonNetwork_StevenUniverse_462x386.jpg');
+}
+#img22{
+    background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/06/04142757/CartoonNetwork_WeBareBears_462x3861.jpg');
+}
+#img23{
+    background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200805/CartoonNetwork_ThePowerPuffGirls_462x386.jpg');
+}
+#img24{
+    background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2018/05/29200826/CartoonNetwork_TheRegularShow_462x386.jpg');
+}
+
+ .grad{
+    width : 100%;
+    height: 130px;
+background-image: linear-gradient( to top,rgba(0, 0, 0, 0.87),rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0));
+    position: absolute;
+    bottom: 0%;
+}
+.cherac h1{
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 65px;
+    margin-left: 13px;
+}
+.cherac p{
+    font-size: 12px;
+    font-weight: 300;
+    margin-left: 13px;
+}
+.grad1{
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 116px;
+    background-image: linear-gradient( to top,black,rgba(0, 0, 0, 0.212),rgba(0, 0, 0, 0));
+}
+.cherac{
+    margin-bottom: 15px;
+}
+#telecast{
+    background-color:black;
+    width: 100%;
+    min-height: 100px;
+    display: flex;
+}
+#twoseven{
+    width: 415px;
+    height: 256px;
+   background-size: cover;
+   margin-top: 58px;
+    background-image: url('https://assets.digicorus.corusdigitaldev.com/wp-content/uploads/sites/19/2019/03/13152421/24_7.jpg');
+}
+#discription{
+    margin-top: 58px;
+    padding-left: 35px;
+}
+#discription h2{
+    font-size:32px;
+    letter-spacing:0.5px;
+    font-weight:700;
+    line-height:
+38.4px;
+}
+#discription p{
+    font-size:
+    16px;
+    font-weight:
+300;
+line-height:
+28.8px;
+
+padding-bottom: 60px;
+}
+#about h2{
+   font-size:  32px;
+   font-weight:
+700;
+letter-spacing:
+0.5px;
+line-height:
+38.4px;
+padding-top: 60px;
+margin-top: 60px;
+}
+
+#about p{
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 28.8px;
+   
+}
+#contact h2{
+    padding-top: 60px;
+}
+#last{
+    width : 100%;
+    height: 195px;
+    background-color:rgb(32, 32, 32);
+    text-align:
+    center;
+    position: relative;
+    
+}
+footer{
+    height: 245px;
+    width: 100%;
+    background-color: black;
+    position: relative;
+}
+#last a{
+    font-size:
+14px;
+line-height:
+21px;
+font-weight:
+400;
+text-decoration: none solid white;
+padding-right: 40px;
+color: white;
+
+}
+
+#cent{
+position: absolute;
+bottom: 118px;
+left : 325px;
+}
+#last p{
+    font-weight:
+400;
+line-height:
+16.8px;
+font-size:
+11.2px;
+color: rgb(128, 128, 128);
+position: absolute;
+bottom :68px;
+left : 490px;
+}
+
+
+#im{
+    position: absolute;
+    left : 625px;
+    top : 28px;
+   width: 104px;
+   height: 24px;
+   background-position: center;
+   background-size: contain;
+    background-image: url('https://www.corusent.com/wp-content/themes/corus/dist/images/logo-rebrand-white.png');
+}
+footer p{
+    color: white;
+    font-weight:
+400;
+line-height:
+14px;
+letter-spacing:
+0.5px;
+position: absolute;
+top : 85px;
+left : 582px;
+}
