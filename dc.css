@@ -1,0 +1,694 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Bebas Neue', cursive;
+}
+html,body{
+    width : 100%;
+    height: 100%;
+}
+body{
+    overflow-x: hidden;
+}
+#blue{
+    width : 100%;
+    height: 25px;
+    background-color: blue;
+  
+}
+nav{
+    display: flex;
+    width : 100%;
+    height: 116px;
+    border-bottom: rgba(123, 123, 134, 0.328) solid 1px;
+    align-items: center;
+    
+    background-color: white;
+  
+    
+}
+#image{
+    width : 82px;
+    height: 82px;
+    background-image: url('https://www.dccomics.com/sites/all/themes/dc_comics_bp/logo.png');
+    background-size: cover;
+    margin-left: 40px;
+}
+.linkes{
+    padding-right: 45px;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 15px;
+    letter-spacing: 0.39px;
+}
+#menu{
+    margin-left: 85px;
+}
+#search{
+    margin-left :118px ;
+    display: flex;
+    font-size: 20px;
+}
+#iconimg{
+    width: 20px;
+    height : 20px;
+    background-image: url('https://cdn3.iconfinder.com/data/icons/wpzoom-developer-icon-set/500/67-512.png');
+    background-size: cover;
+}
+#container1{
+    height: 430px ;
+    width: 1253px;
+    margin: 0 auto;
+  
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#twoimg{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: ;
+    height: 390px ;
+    
+   
+}
+#img11{
+    width:830px ;
+    height: 390px;
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/f3c6db56586459.59b4b9b461bfd.jpg');
+    background-position:center ;
+    background-size: cover;
+    position: relative;
+}
+#img11 h3{
+    font-size: 29px;
+    line-height: 29px;
+    letter-spacing: 0.39px;
+    font-weight: 400;
+    color: white;
+    top : 315px;
+    left: 20px;
+    position: absolute;
+
+}
+#img11 p{
+color: white;
+position: absolute;
+bottom: 25px;
+left: 20px;
+
+
+}
+.hey{
+    color: white;
+    
+
+}
+.hey h3{
+    top: 135px;
+    left: 12px;
+    position: absolute;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 26px;
+
+}
+.hey p{
+    top: 160px;
+    left: 12px;
+    position: absolute;
+    font-size: 16px;
+    font-weight: 400;
+    
+    line-height: 24px;
+}
+
+#img22{
+background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/b2850e18387985.562c8a521a039.jpg');
+background-color: blueviolet;
+background-size: cover;
+position: relative;
+}
+#img33{
+    background-image: url('https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/3b817f88561861.5dda504c45437.jpg');
+    background-color: rgb(56, 22, 87);
+    background-position: top;
+    background-size:cover;
+    position: relative;
+}
+
+.hey{
+    width: 405px;
+    height: 190px ;
+    background-color: chartreuse;
+}
+#featured{
+    line-height: 78px;
+    font-size: 64px;
+   
+    margin-top: 40px;
+    margin-bottom: 15px;
+    font-weight: bold;
+    letter-spacing: 0.50px;
+    color: rgb(52, 118, 241);
+
+}
+#dcverse{
+    width: 920px;
+    margin-left: 63px;
+}
+#shark{
+height: 250px;
+    width: 290px;
+background-image: url('https://www.dccomics.com/sites/default/files/styles/featured_pane_square/public/featured_pane_images/Featured_sm_HarleyQuinn_5dd6c8413c10b1.47777347.jpg?itok=kAjdea2o');
+}
+#watchmen{
+    width: 610px;
+    height: 250px;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/featured_pane_wide/public/featured_pane_images/Featured_wideWatchmenHBO_5da8e9bfc61f55.19365133.jpg?itok=Lqe04rIi');
+}
+.gall1{
+    display: flex;
+    justify-content: space-between;
+}
+.discrip{
+    text-align: left;
+   
+    margin-top: 27px;
+}
+#d a{
+    font-size: 26px;
+    letter-spacing: 0.78px;
+    font-weight: 400px;
+}
+#d{
+    display: flex;
+    justify-content: space-between;
+}
+#d1{
+    width: 290px;
+}
+#d2{
+  
+    width: 610px;
+}
+#joker{
+    width: 610px;
+    height: 250px;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/featured_pane_wide/public/featured_pane_images/Featured_wide_Joker_alt_5d76db0b37afc0.88842972.jpg?itok=ngN8dt1A');
+    margin-top: 55px;
+}
+#jokerdis{
+    width:610px ;
+}
+#it{
+    margin-top: 55px;
+    height: 250px;
+    width:295px ;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/featured_pane_square/public/featured_pane_images/Featured_sm_Hillhouse_5dd6c82d5d6fd2.74701074.jpg?itok=Zmiti5eg');
+
+}
+
+#itdis{
+    width:295px ;
+}
+#wonder{
+    width: 340px;
+    height: 620px;
+    background-image: url('https://www.dccomics.com/sites/default/files/files/character-pops/wonderwoman_361Wx675H_5891047fd4ced7.64432383.png');
+    position: absolute;
+    left: 1100px;
+    background-position: center;
+    background-size: contain;
+   
+}
+
+#circle{
+  
+    height:194px;
+    background-image: url('https://www.dccomics.com/sites/default/files/superman_unchained_2_0.png');
+  
+    width: 194px;
+    position: absolute;
+    right: 140px;
+    top: 740px;
+}
+
+#nextgal{
+    width: 940px;
+    height: 525px;
+   
+    margin-top: 95px;
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+
+
+
+#dbpic{
+    width: 195px;
+    height: 290px;
+    background-color: brown;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/11/TIDB_01_300-001_HD_5ddedbab621802.94352896.jpg?itok=NPehPsrI');
+}
+#bmpic{
+    width: 195px;
+    height: 290px;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/11/BM_84_300-001_HD_5ddedb20562323.37850799.jpg?itok=xQeiWF4A');
+  
+}
+#dspic{
+    width: 195px;
+    height: 290px;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/covers192x291/public/comic-covers/2019/11/DSK_50_300-001_HD_5ddedb5ab165c4.98752337.jpg?itok=I-XyNTSl');
+}
+#evpic{
+    background-color: brown;
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/pull_list_featured/public/comic-covers/2019/11/NEWYEARSEVIL_01_300-001_HD_5ddedb8f13cd15.75785722.jpg?itok=66XSd05L');
+    width : 300px ;
+    height:453px ;
+}
+.comicpic p{
+    font-size: 17px;
+    font-weight: 400;
+    letter-spacing: 0.39px;
+    text-align: left;
+    color: rgb(2,130,249);
+    padding-top: 18px;
+}
+
+.comicpic a{
+    color: rgb(15, 15, 15);
+    font-size: 22px;
+    letter-spacing: 0.39px;
+    font-weight: 400;
+}
+
+.comicpic span{
+    font-size: 12px;
+    line-height: 15px;
+    letter-spacing: 0.39px;
+    font-weight: 400;
+    color: rgb(85,186,89);
+}
+
+#written {
+
+ 
+  
+
+  color: rgb(2,130,249);
+  position: absolute;
+  left : 80%;
+  top :1570px;
+
+}
+#written h2{
+    font-size: 129px; 
+    letter-spacing: 0.39px;
+    font-weight: 300;
+    line-height: 100px;
+}
+#written p{
+    margin-top: 40px;
+    font-weight: 400;
+    line-height: 15px;
+    font-size: 18px;
+    color: black;
+
+}
+#superheros{
+    width: 1252px;
+    height: 450px;
+    background-color: rgba(165, 42, 42, 0);
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+   
+}
+#superman{
+    width: 475px;
+    height: 295px;
+    background-color: rgba(67, 165, 42, 0);
+    background-image: url('https://www.dccomics.com/sites/default/files/files/character-pops/superman_459Wx300H_589104907a0b05.70849485.png');
+    position: absolute;
+   
+    top :1870px;
+    right: 660px;
+}
+#who{
+   font-size: 105px;
+   font-weight: 300;
+   line-height: 90px;
+   letter-spacing: 0.39px;
+   color: rgb(2,130,249); 
+   margin-bottom: 15px;
+}
+
+#superheros #allcherac{
+ display: inline-block;
+ width: 100%;
+ text-align: right;
+ font-size: 18px;
+ line-height: 15px;
+ letter-spacing: 0.39px;
+ font-weight: 400;
+}
+.sh1{
+    width: 182px;
+    background-color: rosybrown;
+    height: 385px;
+
+}
+#shpic{
+    display: flex;
+    
+}
+#supermans{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Superman_20190116_5c3fc71f524f38.28405711.jpg?itok=96u1NAnP');
+}
+#batmans{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Batman_20190116_5c3fc4b40faf04.59002472.jpg?itok=-EvejRcy');
+}
+#wonderwomens{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_WonderWoman_20190116_5c3fc6aa51d124.25659603.jpg?itok=mnTJeWNv');
+}
+#greenlanterns{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_GreenLantern_20190116_5c3fc8c14cede0.33498626.jpg?itok=xhxM-Rp3');
+}
+#theflash{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Flash_20190116_5c3fcadbc6a963.74676553.jpg?itok=fM3AuXiS');
+}
+#aquaman{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Aquaman_5c411a95e710b9.62155274.jpg?itok=H8ogsrnK');
+}
+#cyborg{
+    background-image: url('https://www.dccomics.com/sites/default/files/styles/whos_who/public/Char_WhosWho_Cyborg_20190116_5c3fcd9048a1a2.67778180.jpg?itok=H4oUlRc7');
+}
+#supernames .superstyle a{
+    font-size: 25px;
+    line-height: 14px;
+    letter-spacing: 1px;
+    font-weight: 500px;
+    display: flexbox;
+    width: 182px;
+    height: 30px;
+    background-color: royalblue;
+    justify-content: space-between;
+
+
+}
+#supernames{
+
+    display: flex;
+    justify-content: space-between;
+    text-align-last: left;
+}
+
+#blackbox{
+    width: 1350px;
+    min-height: 470px;
+    background-color: rgb(39, 39, 44);
+    margin-left: 0px;
+    margin-top: 210px;
+    position: relative;
+
+    
+}
+#bluebox{
+    top: 470px;
+    width: 100%;
+    height: 150px;
+    background-color: rgb(2,130,249);
+    position: absolute;
+    z-index: 220;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+}
+#flashcard{
+    width: 195px;
+    height: 195px;
+    z-index: 123;
+    position: absolute;
+    transform: translate(50%, 50%);
+   
+    background-image: url('https://www.dccomics.com/sites/default/files/DC_factoid_1017_52f53d3856de03.85151638.png');
+}
+#batmanpic{
+    width: 640px;
+    height: 540px;
+    
+    position: absolute;
+    transform: translate(670px,150px);
+    z-index: 200;
+    background-position: top ;
+    background-position-x: right;
+    background-size: cover;
+    background-image: url('https://www.dccomics.com/sites/default/files/Char_GetToKnow_Batman80_5ca54cb83a27a6.53173051.png');
+}
+
+#batdetail {
+    color: white;
+    font-family: 'Times New Roman', Times, serif';
+}
+
+#batdetail{
+    position: relative;
+    left: 315px;
+    top: 72px;
+}
+#batdetail h3{
+    font-size: 28px;
+    line-height: 28px;
+    font-weight: 400;
+    color: rgb(2,130,249);
+    letter-spacing: 2px;
+
+}
+#batdetail h1{
+    font-size: 75px;
+    line-height: 70px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+
+#batdetail p{
+    font-size: 19px;
+    font-weight: 400;
+    letter-spacing: 1px;
+}
+#batdetail button{
+    width: 152px;
+    height: 100px;
+    background-color: rgb(2,130,249);
+    height: 42px;
+    margin-top: 45px;
+    text-decoration: none;
+    border: none;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+}
+#digitalcomic{
+    width : 54px;
+    height: 54px;
+    background-image: url('https://mcmscache.epapr.in/post_images/website_262/new_post_images/5c59394b5ee47_language-icon-png-white-7.png');
+    background-size: cover;
+}
+.blue{
+    display: flex;
+   color: white;
+    align-items: center;
+}
+#locator{
+    width : 54px;
+    height: 54px;
+    background-image: url('http://sep.co.nz/wp-content/uploads/2019/10/location-icon-png-white-14.jpg-300x300.png');
+    background-size: cover;
+}
+#powervisa{
+    width : 54px;
+    height: 54px;
+    background-image: url('https://mgsubikaner.ac.in/wp-content/uploads/2015/10/helpdesk-icon.png');
+    background-size: cover;
+}
+#dcmer{
+    width : 54px;
+    height: 54px;
+    background-image: url('https://mgsubikaner.ac.in/wp-content/uploads/2015/10/examination-icon.png');
+    background-size: cover;
+}
+#subscription{
+    width : 54px;
+    height: 54px;
+    background-image: url('https://www.pupil-progress.co.uk/userfiles/images/class-tracking-icon-white.png');
+    background-size: cover;
+}
+
+.blue a{
+    font-size: 14px;
+    font-weight: 200;
+    margin-left: 5px;
+}
+
+#baner{
+    width: 945px;
+   position: relative;
+   
+    height: 350px;
+    background-image: url('https://www.dccomics.com/sites/all/themes/dc_comics_bp/images/DCPV_banner.jpg');
+    z-index: 3000;
+    margin: 0 auto;
+}
+#wbg{
+    width: 100%;
+    min-height: 200px;
+    top : 800px;
+    background-color: white;
+    position: absolute;
+}
+#sidevala{
+   height: 800px;
+   z-index: 5000;
+   width: 300px;
+   position: absolute;
+   transform: translate(1150px,-600px);
+   background-image: url('https://www.dccomics.com/sites/default/files/files/character-pops/batman_char-pop_58910497bad9c5.66936402.png');
+}
+
+#finalmenu{
+    width: 100%;
+    height: 600px;
+    background-color: rgb(19, 18, 19);
+    position: absolute;
+    top: 1230px;
+}
+
+#dclogo{
+    position: absolute;
+    right: 0px;
+   height: 100%;
+   width: 565px;
+   opacity: 0.5;
+   background-size: cover;
+    background-image : url('https://www.trzcacak.rs/myfile/full/203-2038872_dc-comics-logo-evolution-of-the-teen-titans.png');
+}
+.yo{
+color: white;
+display: flex;
+flex-direction: column;
+padding-left: 50px;
+}
+
+#abkya{
+    display: flex;
+    position: absolute;
+    top: 50px;
+    padding-top: 10px;
+}
+#abkya a{
+    padding-top: 10px;
+    color: rgba(255, 255, 255, 0.527);
+    font-size: 15px;
+}
+#abkya h3{
+    font-size: 23px;
+    font-weight: 300px;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.726);
+
+}
+
+#greybar{
+    width: 100%;
+    position: absolute;
+    height: 110px;
+    background-color: rgb(34, 33, 37);
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+#greybar button{
+    width: 150px;
+    padding: 10px 10px;
+    height: 40px;
+    background-color: transparent;
+    border: 3px;
+    border-color: rgb(2,130,249);
+    text-align: center;
+  text-decoration: none;
+  color: white;
+  border: 2px solid rgb(56, 68, 236);
+   /* Green */
+   margin-left: 50px;
+   font-size: 18px;
+
+    
+}
+#sns{
+    display: flex;
+}
+
+#greybar h3{
+    color: rgb(2,130,249);
+    font-size: 30px;
+}
+
+#facebook{
+    width : 40px;
+    margin-left: 15px;
+    background-size: cover;
+    height: 40px;
+    opacity: 0.5;
+    background-image: url('https://www.pngkey.com/png/full/205-2050291_cryptonet-network-icon-complete-social-network-organizer.png');
+}
+#twitter{
+    width : 40px;
+    margin-left: 15px;
+    background-size: cover;
+    height: 40px;
+    background-image: url('https://www.pngkey.com/png/full/205-2050291_cryptonet-network-icon-complete-social-network-organizer.png');
+opacity: 0.5;
+}
+#youtube{
+    width : 40px;
+    margin-left: 15px;
+    background-size: cover;
+    height: 40px;
+    background-image: url('https://www.pngkey.com/png/full/205-2050291_cryptonet-network-icon-complete-social-network-organizer.png');
+opacity: 0.5;
+}
+
+#pintrest{
+    width : 40px;
+    margin-left: 15px;
+   
+    background-size: cover;
+    height: 40px;
+    background-image: url('https://www.pngkey.com/png/full/205-2050291_cryptonet-network-icon-complete-social-network-organizer.png');
+opacity: 0.5;
+}
+
+#fire{
+    width : 40px;
+    margin-left: 15px;
+    background-size: cover;
+    height: 40px;
+    background-image: url('https://www.pngkey.com/png/full/205-2050291_cryptonet-network-icon-complete-social-network-organizer.png');
+opacity: 0.5;
+margin-right: 7px;
+}
+.items label{
+    color: snow;
+    font-family: 'Montserrat';
+}
