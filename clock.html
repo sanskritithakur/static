@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="clock.css">
+    <title>Document</title>
+</head>
+<body>
+
+
+<div id="background">
+    <div class="hand hour"></div>
+    <div class="hand min"></div>
+    <div class="hand sec"></div>
+    <div id="dot"></div>
+
+</div>
+
+
+
+<div id="display"></div>
+
+
+
+    <script>
+          var display=document.querySelector("#display"); 
+          var hour=document.querySelector(".hour");
+          var min=document.querySelector(".min");
+          var sec=document.querySelector(".sec");
+      
+      //  console.log(str);
+        setInterval(() => {
+         
+            var d=new Date();
+        var str=d.toLocaleTimeString();
+       // console.log(d);
+       // console.log(str);
+            display.innerHTML=str;
+
+
+            //-----------------------------------clock----------------------------------
+
+                var secRatio=d.getSeconds();
+                sec.style.transform=`translate(-50%) rotate(${secRatio*6}deg)`;
+
+                var minRatio=d.getMinutes();
+               min.style.transform=`translate(-50%) rotate(${minRatio*6}deg)`;
+
+                var hourRatio=d.getHours();
+                hour.style.transform= `translate(-50%) rotate(${hourRatio*30}deg)`;
+
+               
+
+        }, 1000);
+        
+    </script>
+</body>
+</html>
